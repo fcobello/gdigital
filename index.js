@@ -9,7 +9,7 @@ exports.handler =  function(event, context, callback) {
         nome: event.name,
         email: event.email,
         id_form: FORM_ID,
-        telefone: event.phone,
+        telefone: event.phoneNumber,
         clientListingId: event.clientListingId,
         leadOrigin: event.leadOrigin,
         timestamp: event.timestamp,
