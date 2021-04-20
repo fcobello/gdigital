@@ -10,7 +10,13 @@ exports.handler =  function(event, context, callback) {
         email: event.email,
         id_form: FORM_ID,
         telefone: event.phone,
-        anuncio: event.clientListingId
+        clientListingId: event.clientListingId,
+        leadOrigin: event.leadOrigin,
+        timestamp: event.timestamp,
+        originLeadId: event.originLeadId,
+        originListingId: event.originListingId,
+        ddd: event.ddd,
+        message: event.message
     };
     
     const options = 
